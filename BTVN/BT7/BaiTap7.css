@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial;
+}
+
+/* Khung bao ngoài */
+#wrapper {
+    width: 430px;
+    margin: 30px auto;
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: -15px 15px 15px gray;
+}
+
+/* Header */
+header {
+    height: 60px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Nav */
+nav {
+    width: 15%;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    float: left;
+}
+
+/* Main */
+main {
+    width: 70%;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    float: right;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    height: 40px;
+}
