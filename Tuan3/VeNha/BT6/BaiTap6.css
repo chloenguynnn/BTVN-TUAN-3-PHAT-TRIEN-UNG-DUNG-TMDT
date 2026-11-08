@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial;
+}
+
+/* Khung portfolio */
+.portfolio {
+    text-align: center;
+    margin: 40px auto;
+}
+
+/* Tiêu đề */
+.portfolio h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* Danh mục */
+.list-tab {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.list-tab li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.list-tab a {
+    color: black;
+    text-decoration: none;
+}
+
+.list-tab a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Danh sách hình ảnh */
+.galerry {
+    list-style-type: none;
+    padding: 0;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.galerry li {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.galerry img {
+    width: 100%;
+}

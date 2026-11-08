@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial;
+}
+
+.best-shared {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.best-shared h2 {
+    font-size: 35px;
+}
+
+.best-shared strong {
+    color: blue;
+}
+
+.lead-text {
+    color: gray;
+    font-size: 16px;
+}
+
+.btn-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.btn-list li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn-list a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+}
